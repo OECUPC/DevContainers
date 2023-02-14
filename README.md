@@ -74,3 +74,9 @@ ssh-rsa ~~~~~~~~~~~~~~~~~~~~~
 GitHubの`Settings` -> `SSH and GPG keys` -> `New SSH key`をクリック。
 
 `Title`を適当な名称に、`Key`を先ほどコピーした内容を貼り付け後、`Add SSH key`で追加。
+
+### Gitの設定
+```shell
+$ git config --global user.name [GitHubでのID]
+$ git config --global user.email [GitHubアカウントを登録しているメールアドレス]
+```
