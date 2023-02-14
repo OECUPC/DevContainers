@@ -7,6 +7,9 @@
 - VSCodeの拡張機能
     - Remote Development (publisher: Microsoft)
 
+## インストール方法とか
+公式サイト等に従ってインストールしてください
+
 ## 使い方とか
 ### コンテナの構築/起動
 任意の環境のディレクトリに移動して、それぞれに配置されている`Dockerfile`から`docker`コマンドを用いてビルドを行う。
